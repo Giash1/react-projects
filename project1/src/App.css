@@ -1,0 +1,63 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;300;400;500&family=Rowdies:wght@300;400;700&family=Ubuntu:ital,wght@0,300;0,400;1,500&display=swap');
+body{
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rowdies', cursive;
+font-family: 'Ubuntu', sans-serif;
+background-image: url("/images/balans.jpg") ;
+max-width: 1280px;
+height: auto;
+align-items: center;
+justify-content: center;
+padding: 300px 300px;
+
+
+}
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 80px;
+    margin-top: -700px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 80px;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color: black;
+
+}
+.btn-app{
+    height: 70px;
+    background-color: aquamarine;
+    /* margin-left: 200px; */
+    margin-top: 25px;
+}
+.description{
+    justify-content: space-between;
+    gap: 80px;
+    display: flex;
+    padding-top: 40px;
+    color: rgb(19, 17, 17);
+}
+.description-image{
+   display: flex;
+   height: 500px;
+   margin-top: 40px;
+
+}
+.description-btn{
+    height: 70px;
+    background-color: rgb(127, 255, 212);
+    width: 180px;
+    text-align: center;
+    display: flex;
+}
